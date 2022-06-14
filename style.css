@@ -1,0 +1,43 @@
+#main {    
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    position: relative;
+    background-color: rgb(33, 33, 59);
+    height: 500px;
+    width: 40%;
+    border-radius: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+#timer {    
+    position: absolute;
+    top: 50px;
+    height: 60%;
+    width: 50%;
+    border: 5px solid rgb(18, 240, 240);
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+#press{
+    position: absolute;
+    top:25rem;
+}
+button {
+    background-color: rgb(115, 193, 238);
+    margin: 5px;
+    height: 32px;
+    width: 7rem;
+    font-size: 1.5em;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
